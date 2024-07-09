@@ -1,0 +1,15 @@
+BR2_aarch64=y
+BR2_TOOLCHAIN_EXTERNAL=y
+BR2_TOOLCHAIN_EXTERNAL_CUSTOM=y
+BR2_TOOLCHAIN_EXTERNAL_DOWNLOAD=y
+BR2_TOOLCHAIN_EXTERNAL_URL="https://releases.linaro.org/components/toolchain/binaries/5.2-2015.11-2/aarch64-linux-gnu/gcc-linaro-5.2-2015.11-2-x86_64_aarch64-linux-gnu.tar.xz"
+BR2_TOOLCHAIN_EXTERNAL_CUSTOM_PREFIX="aarch64-linux-gnu"
+BR2_TOOLCHAIN_EXTERNAL_GCC_5=y
+BR2_TOOLCHAIN_EXTERNAL_HEADERS_4_0=y
+BR2_LINUX_KERNEL=y
+BR2_LINUX_KERNEL_CUSTOM_GIT=y
+BR2_LINUX_KERNEL_CUSTOM_REPO_URL="https://github.com/MarvellEmbeddedProcessors/linux-marvell"
+BR2_LINUX_KERNEL_CUSTOM_REPO_VERSION="linux-4.4.52-armada-17.06"
+BR2_LINUX_KERNEL_PATCH="/home/jacky/0001-dts-espressobin-add-emmc-support.patch /home/jacky/0006-dts-add-new-espressobin-dts-for-hw-rev.7.patch /home/jacky/0002-configs-add-espressobin-network-config-for-hw_v6.patch /home/jacky/0007-btusb-disable-realtek-bluetooth-support.patch /home/jacky/0003-fix-regulator-armada-37xx-overwrite-CPU-voltage-valu.patch /home/jacky/0008-config-update-espressobin-defconfig.patch /home/jacky/0004-dts-add-new-dts-armada-3720-community-v5.dts.patch /home/jacky/0005-config-enable-bluetooth-support.patch"
+BR2_LINUX_KERNEL_USE_CUSTOM_CONFIG=y
+BR2_LINUX_KERNEL_CUSTOM_CONFIG_FILE=" /home/jacky/buildrootV2/configs/mvebu_v8_lsp_defconfig"
